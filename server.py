@@ -9,7 +9,6 @@ from two1.bitserv.flask import Payment
 
 app = flask.Flask(__name__)
 payment = Payment(app, Wallet())
-app.debug = True
 
 
 @app.route("/")
@@ -35,4 +34,4 @@ def make_password(website_url = None):
         return json.dumps(exception)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=4000)
+    app.run(host="0.0.0.0")
