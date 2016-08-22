@@ -54,7 +54,7 @@ How to use:
 
 </code></pre>
 <p>This is an example of runnng /get_ip/ for Google.</p>
-<pre><code> {
+<pre><code>{
     "ip_address": "216.58.219.164",
     "url": "www.google.com"
 }
