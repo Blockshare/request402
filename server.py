@@ -16,10 +16,6 @@ app = flask.Flask(__name__)
 wallet = Wallet()
 payment = Payment(app, wallet)
 
-@app.route("/")
-def info():
-    return "To check the HTTP status of a website, run: 21 buy url http://www.request402.org/get_status/<www.website.com>"
-
 
 # Get header and status codes of website
 @app.route('/get_status/<string:website_url>')
