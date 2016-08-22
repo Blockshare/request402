@@ -1,3 +1,4 @@
 __pycache__
 venv/
 .env
+status_codes.py
